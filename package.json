@@ -1,0 +1,35 @@
+{
+  "name": "generate-table-of-contents",
+  "version": "1.0.0",
+  "description": "Generate a table of contents from part of a web page",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js | tap-summary",
+    "prepublish": "uglifyjs index.js -o index.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasartman/generate-table-of-contents.git"
+  },
+  "keywords": [
+    "table-of-contents",
+    "toc",
+    "standalone"
+  ],
+  "author": "Nicolas Artman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicolasartman/generate-table-of-contents/issues"
+  },
+  "homepage": "https://github.com/nicolasartman/generate-table-of-contents#readme",
+  "devDependencies": {
+    "emmet": "^1.3.2",
+    "jsdom": "^8.3.0",
+    "pretty": "^1.0.0",
+    "rewire": "^2.5.1",
+    "tap-diff": "^0.1.1",
+    "tap-summary": "^1.2.0",
+    "tape": "^4.5.1",
+    "uglify-js": "^2.6.2"
+  }
+}
